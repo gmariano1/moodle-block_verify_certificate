@@ -64,12 +64,13 @@ $certificates = $DB->get_records_sql($sql, array($id));
 
 if (! $certificates) {
     echo $OUTPUT->box_start('generalbox boxaligncenter');
+	echo '<div id="block_verify_certificate"><br>';
     echo '<p class="notVerified">' . get_string('certificate', 'block_verify_certificate')
          . ' "' . $id . '" ' . '</p>';
 	echo '<div class="wrapper-box"><br>';
     echo '<div class="left"><br>' .get_string('notfound', 'block_verify_certificate').'</div>';    
     echo '<div class="right"><img src="pix/certnotverified.png" border="0" align="center"></div>';
-	echo '</div>';	
+	echo '</div></div>';	
     echo $OUTPUT->box_end();
 } else {
     echo $OUTPUT->box_start('generalbox boxaligncenter');
