@@ -16,10 +16,10 @@
 
 /**
  * Version details
- * 
+ *
  * Verify certificate block
  * --------------------------
- * Verify certificate based on the unique codes displayed on issued certificates. 
+ * Verify certificate based on the unique codes displayed on issued certificates.
  * Full details of the issued certificate is displayed including profile picture.
  * Mostly cosmetic changes to the original codes from Jean-Michel Védrine.
  * Original Autor & Copyright - Jean-Michel Védrine | 2014
@@ -37,8 +37,8 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class block_verify_certificate extends block_base {
-	
-	/**
+
+    /**
      * Sets the block title
      *
      * @return void
@@ -52,11 +52,11 @@ class block_verify_certificate extends block_base {
      *
      * @return array
      */
-	public function applicable_formats() {
+    public function applicable_formats() {
         return array('all' => true);
     }
-	
-	/**
+
+    /**
      * Creates the blocks main content
      *
      * @return string
@@ -78,8 +78,8 @@ class block_verify_certificate extends block_base {
 
         return $this->content;
     }
-	
-	 /**
+
+    /**
      * Controls whether the block is configurable
      *
      * @return boolean

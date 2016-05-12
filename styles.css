@@ -13,10 +13,10 @@
  * along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Version details
- * 
+ *
  * Verify certificate block
  * --------------------------
- * Verify certificate based on the unique codes displayed on issued certificates. 
+ * Verify certificate based on the unique codes displayed on issued certificates.
  * Full details of the issued certificate is displayed including profile picture.
  * Mostly cosmetic changes to the original codes from Jean-Michel Védrine.
  * Original Autor & Copyright - Jean-Michel Védrine | 2014
@@ -28,38 +28,38 @@
  */
 
 #block_verify_certificate p.notVerified {
-	color: #F00;
-	font-size:large;
-	font-weight:bold;
+    color: #F00;
+    font-size:large;
+    font-weight:bold;
 }
 
 #block_verify_certificate p.verified {
-	color: #393;
-	font-size:large;
-	font-weight:bold;
+    color: #393;
+    font-size:large;
+    font-weight:bold;
 }
 
 #block_verify_certificate .left {
-	float: left;
-	width: 75%;
-	margin-top: 10px;
+    float: left;
+    width: 75%;
+    margin-top: 10px;
 }
 
 #block_verify_certificate .right {
-	float: right;
-	width: 25%;
-	margin-top: 10px;
+    float: right;
+    width: 25%;
+    margin-top: 10px;
 }
 
 #block_verify_certificate .wrapper-box:after {
-	content:"";
-	display: table;
-	clear: both;
+    content:"";
+    display: table;
+    clear: both;
 }
 
 @media screen and (max-width: 480px) {
 #block_verify_certificate .left, .right {
-	float: none;
-	width: auto;
+    float: none;
+    width: auto;
   }
 }
