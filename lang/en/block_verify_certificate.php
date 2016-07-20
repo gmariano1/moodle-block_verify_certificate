@@ -35,6 +35,7 @@ $string['pluginname'] = 'Verify certificate';
 $string['certificate'] = 'VERIFICATION FOR CERTIFICATE CODE ::';
 $string['verifycertificate'] = 'Verify certificate';
 $string['verify_certificate:addinstance'] = 'Add a new Verify certificate block';
+$string['verify_certificate:myaddinstance'] = 'Add a new Verify certificate block';
 $string['notfound'] = 'The certificate code you provided could not be validated.<br><br> Please make sure you have typed the code correctly as its case sensetive.';
 $string['to'] = 'AWARDED TO';
 $string['course'] = 'COURSE';
